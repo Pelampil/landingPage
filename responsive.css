@@ -1,1 +1,90 @@
+@media only screen and (max-width: 1000px) {
+    /* Header */
+    header {
+        padding: 20px 80px;
+    }
+    ul.menu li {
+        font-size: 14px;
+    }
+    .logo a img {
+        width: 100px;
+    }
 
+    /* Banner */
+    .banner {
+        padding: 80px 80px;
+        flex-direction: column-reverse;
+    }
+    .left {
+        text-align: center;
+    }
+    .left h2 {
+        font-size: 35px;
+    }
+    .left h3 {
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+    .left a {
+        font-size: 20px;
+    }
+    .right img {
+        max-width: 400px;
+    }
+    /* Benefit */
+    .benefit {
+        padding: 20px 80px;
+    }
+
+    .benefit .heading h1 {
+        font-size: 40px;
+    }
+    .advantage {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card:first-child {
+        margin-top: 100px;
+    }
+
+    .card {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    /* Header */
+    header{
+        padding: 20px 40px;
+    }
+    
+    ul.menu li {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+        font-size: 18px;
+    }
+    .menu-icon a {
+        color: white;
+    }
+    /* Banner */
+    .banner {
+        padding: 100px 0;
+    }
+    .left h2 {
+        font-size: 25px;
+    }
+    .right {
+        max-height: 200px;;
+    }
+    .right img {
+        max-width: 300px;
+    }
+    /* Benefit */
+    .benefit .heading h1 {
+        font-size: 30px;
+    }
+}
