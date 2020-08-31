@@ -1,4 +1,4 @@
-// CSS Reset
+/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +9,14 @@
 body, input, button {
     font-size: 12px;
     font-family: "Arial Rounded MT";
+}
+
+a {
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
 }
 
 a:hover {
