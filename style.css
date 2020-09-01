@@ -210,3 +210,154 @@ ul.menu li a {
     font-size: 14px;
     margin-bottom: 50px;
 }
+
+/* Section 4 & 5 */
+
+#pad-page{
+    padding:45px;
+}
+
+.team-cat{
+    text-align: center;
+}
+
+#team {
+    display: inline-block;
+    border-bottom: #4BD0D9 solid 5px;
+}
+
+
+.card {
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    width: 26%;
+    margin: 33px 50px 33px 50px;
+}
+
+.team {
+    text-align: center;
+}
+
+.team img {
+    border-radius: 50%;
+    width: 35%;
+}
+
+.our-team {
+    display: flex;
+}
+
+#contact-us {
+    border-bottom: #4BD0D9 solid 5px;
+    display: inline-block;
+}
+
+#contact {
+    margin-top: 80px;
+}
+
+form {
+    float: left;
+    margin-top: 30px;
+    width: 40%;
+}
+
+.image-contact {
+    float: right;
+    width: 55%;
+    margin-top: 115px;
+}
+
+.image-contact img {
+    border: solid 1px #4BD0D9;
+    width: 650px;
+    height: 355px;
+    object-fit: cover;
+    padding: 10px;
+    box-shadow: 2px 2px 20px -11px rgba(0, 0, 0, 0.75);
+}
+
+.message {
+    height: 155px;
+    width: 100%;
+    padding-bottom: 103px;
+    box-shadow: 2px 5px 20px -8px rgba(0, 0, 0, 0.20);
+}
+
+.email {
+    height: 50px;
+    width: 100%;
+    box-shadow: 2px 5px 20px -8px rgba(0, 0, 0, 0.20);
+}
+
+.name {
+    height: 50px;
+    width: 100%;
+    box-shadow: 2px 5px 20px -8px rgba(0, 0, 0, 0.20);
+}
+
+
+#submit:hover {
+    opacity: 0.75;
+}
+
+
+#submit {
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    background-color: #4BD0D9;
+    color: rgb(0, 0, 0);
+    border-radius: 11px;
+    border: 1px solid rgb(53, 50, 50);
+    cursor: pointer;
+    transition: opacity 300ms ease-in-out;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #4BD0D9;
+    ;
+    color: antiquewhite;
+    clear: both;
+    margin-top: 45px;
+}
+
+footer a img {
+    width: 120px;
+    margin-top: 33px;
+    transition: opacity 300ms ease-in-out;
+}
+
+footer a img:hover {
+    opacity: 0.75;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fo-li {
+    display: flex;
+
+
+}
+
+.fo-li ul {
+    list-style-type: none;
+}
+
+.fo-li ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.fo-li ul a:hover {
+    color: black;
+    opacity: 0.75;
+}
+
+
