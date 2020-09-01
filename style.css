@@ -237,7 +237,6 @@ ul.menu li a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
     padding: 20px 30px;
     width: 26%;
-    margin: 33px 50px 33px 50px;
 }
 
 .team {
@@ -251,6 +250,7 @@ ul.menu li a {
 
 .our-team {
     display: flex;
+    justify-content:space-around;
 }
 
 #contact-us {
@@ -271,7 +271,7 @@ form {
 .image-contact {
     float: right;
     width: 55%;
-    margin-top: 115px;
+    margin-top: 63px;
 }
 
 .image-contact img {
@@ -324,7 +324,6 @@ form {
 footer {
     text-align: center;
     background-color: #4BD0D9;
-    ;
     color: antiquewhite;
     clear: both;
     margin-top: 45px;
