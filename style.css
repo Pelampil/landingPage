@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+main{
+    overflow:auto;
+}
+    
+
 body, input, button {
     font-size: 12px;
     font-family: "Arial Rounded MT";
@@ -342,8 +347,6 @@ footer a img:hover {
 
 .fo-li {
     display: flex;
-
-
 }
 
 .fo-li ul {
@@ -359,5 +362,3 @@ footer a img:hover {
     color: black;
     opacity: 0.75;
 }
-
-
