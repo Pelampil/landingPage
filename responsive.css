@@ -1,3 +1,15 @@
+@media screen and (max-width:1204px) {
+    .image-contact img {
+        width: 580px;
+    }
+}
+
+@media screen and (max-width:1104px) {
+    .image-contact img {
+        width: 500px;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     /* Header */
     header {
@@ -54,6 +66,33 @@
     }
 }
 
+@media screen and (max-width:955px) {
+
+    .image-contact,
+    form {
+        width: 100%;
+    }
+
+    .image-contact {
+        margin: 5px;
+    }
+
+    .our-team {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #contact {
+        text-align: center;
+    }
+
+    .card {
+        width: 63%;
+        margin: 33px auto;
+    }
+}
+
+
 @media only screen and (max-width: 700px) {
     /* Header */
     header{
@@ -87,4 +126,25 @@
     .benefit .heading h1 {
         font-size: 30px;
     }
+    
+    .image-contact {
+        display: none;
+    }
+
+    .footer-list {
+        justify-content: center;
+        margin: 0 50px 0 0;
+    }
+
+    footer a img {
+        display: none;
+    }
 }
+
+@media screen and (max-width:460px) {
+    .card {
+        width: 88%;
+    }
+}
+
+
