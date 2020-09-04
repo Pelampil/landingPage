@@ -1,15 +1,3 @@
-@media screen and (max-width:1204px) {
-    .image-contact img {
-        width: 580px;
-    }
-}
-
-@media screen and (max-width:1104px) {
-    .image-contact img {
-        width: 500px;
-    }
-}
-
 @media only screen and (max-width: 1000px) {
     /* Header */
     header {
@@ -21,7 +9,6 @@
     .logo a img {
         width: 100px;
     }
-
     /* Banner */
     .banner {
         padding: 80px 80px;
@@ -48,7 +35,6 @@
     .benefit {
         padding: 20px 80px;
     }
-
     .heading h1 {
         font-size: 40px;
     }
@@ -56,11 +42,9 @@
         flex-direction: column;
         align-items: center;
     }
-
     .card:first-child {
         margin-top: 100px;
     }
-
     .card {
         margin-top: 50px;
     }
@@ -68,35 +52,26 @@
     .images {
         flex-direction: row;
     }
-
     .images a:nth-child(2) {
         margin-top: 50px;
     }
-}
-
-@media screen and (max-width:955px) {
-
-    .image-contact,
-    form {
-        width: 100%;
-    }
-
-    .image-contact {
-        margin: 5px;
-    }
-
+    /* Team */
     .our-team {
         flex-direction: column;
-        text-align: center;
+        align-items: center;
     }
-
-    #contact {
-        text-align: center;
+    /* Contact */
+    .contact-section{
+        display: flex;
+        flex-direction: column;
     }
-
-    .card {
-        width: 63%;
-        margin: 33px auto;
+    form, .image-contact{
+        width:100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .contacts{
+        text-align: center;
     }
 }
 
@@ -134,11 +109,13 @@
     .heading h1 {
         font-size: 30px;
     }
-    
+    /* Contact */
     .image-contact {
         display: none;
     }
-
+    /* Footer */
+    footer a img {
+        width:60%;
     .footer-list {
         justify-content: center;
         margin: 0 50px 0 0;
@@ -148,11 +125,3 @@
         display: none;
     }
 }
-
-@media screen and (max-width:460px) {
-    .card {
-        width: 88%;
-    }
-}
-
-

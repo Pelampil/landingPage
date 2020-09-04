@@ -247,8 +247,82 @@ ul.menu li a {
     -o-border-radius: 20px;
 }
 
-/* Section 4 & 5 */
+/* Team */
+.team {
+    text-align: center;
+}
 
+.teams{
+    margin-bottom: 160px;
+    padding:45px;
+}
+
+.team img {
+    border-radius: 50%;
+    max-width:60%;
+}
+
+.our-team {
+    display: flex;
+    justify-content:space-around;
+    margin-top:110px;
+}
+
+.team h3{
+    color: #3F3D56;
+    font-size:20px;
+    margin: 10px 0 20px;
+}
+
+.team {
+    font-size:14px;
+}
+
+/* Contact */
+#contact {
+    margin-top: 80px;
+}
+
+.contacts{
+    padding:45px;
+}
+
+
+.heading-1{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.cntct{
+    font-size: 40px;
+    font-weight: bold;
+    color: #3F3D56;
+    display: inline-block;
+    border-bottom: #4BD0D9 solid 5px;
+}
+
+.contact-section{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+form{
+    flex-basis:50%;
+}
+
+.image-contact{
+    flex-basis:65%;
+    margin-left: 50px;
+}
+
+
+.image-contact img {
+    border: solid 1px #4BD0D9;
+    max-width: 650px;
+    object-fit: cover;
+    padding: 25px;
+    box-shadow: 2px 2px 20px -11px rgba(0, 0, 0, 0.75)
 #pad-page{
     padding:45px;
 }
@@ -344,6 +418,10 @@ form {
     width: 100%;
     height: 45px;
     background-color: #4BD0D9;
+    color:#ffff;
+    font-weight: bold;
+    border-radius: 11px;
+    border: none;
     color: rgb(0, 0, 0);
     border-radius: 11px;
     border: 1px solid rgb(53, 50, 50);
@@ -351,11 +429,12 @@ form {
     transition: opacity 300ms ease-in-out;
 }
 
-
+/* Footer */
 footer {
     text-align: center;
     background-color: #4BD0D9;
     color: antiquewhite;
+    padding:16px;
     clear: both;
     margin-top: 45px;
 }
@@ -373,6 +452,7 @@ footer a img:hover {
 .footer-list {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .fo-li {
@@ -381,11 +461,13 @@ footer a img:hover {
 
 .fo-li ul {
     list-style-type: none;
+    margin: 0 15px 0 15px;
 }
 
 .fo-li ul a {
     text-decoration: none;
     color: white;
+    font-size:15px;
 }
 
 .fo-li ul a:hover {
