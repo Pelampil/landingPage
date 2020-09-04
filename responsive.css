@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 1000px) {
     /* Header */
     header {
@@ -37,7 +38,7 @@
         padding: 20px 80px;
     }
 
-    .benefit .heading h1 {
+    .heading h1 {
         font-size: 40px;
     }
     .advantage {
@@ -52,7 +53,37 @@
     .card {
         margin-top: 50px;
     }
+    /* Works */
+    .images {
+        flex-direction: row;
+    }
+
+    .images a:nth-child(2) {
+        margin-top: 50px;
+    }
+
+    .our-team {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    form, .image-contact{
+        width:100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .contacts{
+        text-align: center;
+    }
 }
+
+
 
 @media only screen and (max-width: 700px) {
     /* Header */
@@ -84,7 +115,18 @@
         max-width: 300px;
     }
     /* Benefit */
-    .benefit .heading h1 {
+    .heading h1 {
         font-size: 30px;
     }
+    
+    .image-contact {
+        display: none;
+    }
+
+    footer a img {
+        width:60%;
+    }
 }
+
+
+
